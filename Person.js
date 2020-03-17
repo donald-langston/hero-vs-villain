@@ -14,7 +14,7 @@ class Person {
     }
 
     attack(person) {
-        
+        person.health -= person.weapon.damage;
     }
     
 }

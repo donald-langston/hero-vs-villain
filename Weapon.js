@@ -6,6 +6,3 @@ class Weapon {
         this.name = name;
     }
 }
-
-let weapon = new Weapon("machine gun");
-console.log(weapon);
